@@ -1,0 +1,83 @@
+@media only screen and (max-width: 1000px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    li a{
+        font-size: 20px;
+    }
+    .list_item{
+        display: flex;
+        flex-direction: column;
+    }
+    .home{
+        display: flex;
+        flex-direction: column;
+    }
+    .about_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .child_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .about_img img{
+        margin-left: 25%;
+    }
+    .parent_child{
+        padding: 0px 0px 0px 40px;
+    }
+    .about_language{
+        display: flex;
+        flex-direction: column;
+        margin-left: 12%;
+    }
+    .box{
+        border-left-width: 200px;
+    }
+    .boxing{
+    padding-left:0px !important;
+    margin-top: 1rem;
+}
+.education_self{
+    display: flex;
+    flex-direction: column;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+}
+.screen_short img{
+    width: 250px;
+    height: 200px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+.resum{
+    display: flex;
+    flex-direction: column;
+}
+.fa-icons-bg{
+    margin: 20px;
+}
+ .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.3s ease-out;
+        height: 447px;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav{
+        height: 72px;
+    }
+    .v-class{
+            opacity: 0;
+    }
+  }
